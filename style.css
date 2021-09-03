@@ -1,0 +1,68 @@
+body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .slideshow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            height: 100%;
+            width: 100%;
+
+        }
+
+        .slideshow.visibility {
+            opacity: 1;
+        }
+
+        #left-arrow {
+            position: absolute;
+            left: 20px;
+            top: 40%;
+            font-size: 100px;
+            color: red;
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        #right-arrow {
+            position: absolute;
+            right: 20px;
+            top: 40%;
+            font-size: 100px;
+            color: red;
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        .circle.dot {
+            background-color: red;
+        }
+
+        .circlecont {
+            position: absolute;
+            left: 45%;
+            bottom: 20px;
+        }
+
+        .circle {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border: 2px solid #e50910;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: 1s;
+
+        }
+
+        .circle:hover {
+            background-color: rgb(211, 137, 137);
+        }
+
+        .circle.dot {
+            background-color: rgb(179, 9, 9);
+        }
