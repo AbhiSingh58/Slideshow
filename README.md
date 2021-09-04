@@ -1,1 +1,1 @@
-# slideshow using HTML , CSS , Javascript.
+# slideshow using HTML , CSS , Javascript. in which slide changes automaticalyy after 5 sec or we can change it bymouse click on next or previous arrrow give or we can also change the slide next or prev using next or prev buttons from keyboard.
