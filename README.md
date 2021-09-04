@@ -1,1 +1,1 @@
-# slideshow
+# slideshow using HTML , CSS , Javascript.
