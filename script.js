@@ -33,7 +33,7 @@
 
         var currentslide = 0;
 
-        var timer = setInterval(slideshow, 000);
+        var timer = setInterval(slideshow, 5000);
         slideshow();
 
         leftarrow.addEventListener("click", () => {
