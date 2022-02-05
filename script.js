@@ -1,8 +1,7 @@
-
-        const slide = document.querySelectorAll(".slideshow");
-        const circ = document.querySelectorAll(".circle")
-        const leftarrow = document.getElementById("left-arrow");
-        const rightarrow = document.getElementById("right-arrow");
+const slide = document.querySelectorAll(".slideshow");
+const circ = document.querySelectorAll(".circle");
+const leftarrow = document.getElementById("left-arrow");
+const rightarrow = document.getElementById("right-arrow");
 
         document.addEventListener("keyup", function(e) {
                 
@@ -79,6 +78,7 @@
                 slide[i].classList.remove('visibility');
 
             }
+                
             slide[currentslide].classList.add('visibility');
         }
 
